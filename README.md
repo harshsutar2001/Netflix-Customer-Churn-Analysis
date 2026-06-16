@@ -28,34 +28,7 @@ The objective is to identify why customers leave the platform and recommend stra
 
 ## 📂 Dataset Information
 
-The dataset contains customer subscription and engagement information, including:
-
-* Customer ID
-* Gender
-* Age
-* Country
-* Subscription Plan
-* Monthly Charges
-* Account Age
-* Watch Hours Per Month
-* Favorite Genre
-* Devices Used
-* Profiles Created
-* Downloads Per Month
-* Support Tickets
-* Payment Failures
-* Last Login Days Ago
-* Satisfaction Score
-* Auto Renewal Status
-* Churn Status
-
-Additional derived field:
-
-* Age Category
-
-The dataset was cleaned and transformed using Excel before being imported into SQL Server and Power BI.
-
----
+The dataset used for this project is available in the **Data_Files** folder of this repository.
 
 ## 🛠️ Tools & Technologies Used
 
@@ -110,37 +83,33 @@ The dataset was cleaned and transformed using Excel before being imported into S
 * Active Customers
 * Churned Customers
 * Churn Rate %
-* Revenue Lost
-* Average Satisfaction Score
+* Total Revenue
+
+
+![Dashboard](
+
 
 ---
 
 ## 📈 Dashboard Visualizations
+---
+## Customer Churn Distribution
+Displays the percentage of active and churned customers.
 
-### Customer Churn Distribution
+## Subscription Plan Wise Churn
+Shows churned customers across different subscription plans.
 
-Displays the proportion of active and churned customers.
+## Churned Customers by Country
+Identifies countries with the highest customer churn.
 
-### Subscription Plan Wise Churn
+## Satisfaction Score vs Churn
+Highlights the impact of customer satisfaction on churn.
 
-Identifies which plans experience the highest customer loss.
+## Average Watch Hours by Favorite Genre
+Shows the most engaging content genres based on watch time.
 
-### Country Wise Churn
-
-Highlights geographic regions with elevated churn rates.
-
-### Age Category Wise Churn
-
-Analyzes churn behavior across customer age groups.
-
-### Satisfaction Score vs Churn
-
-Evaluates the relationship between customer satisfaction and retention.
-
-### Payment Failures vs Churn
-
-Measures the impact of billing issues on customer churn.
-
+## Top Active Customers by Country
+Displays countries with the highest number of active customers.
 ---
 
 ## 💡 Key Insights
@@ -153,39 +122,21 @@ Measures the impact of billing issues on customer churn.
 * Lower satisfaction scores were strongly associated with higher churn rates.
 * Customers with multiple payment failures showed a significantly greater likelihood of churning.
 * Customer churn resulted in an estimated revenue loss of **6,186,092**.
+* Increase investment in high-engagement genres such as Sci-Fi to improve customer engagement and retention.
 
 ---
 
 ## 🚀 Recommendations
+---
+Improve customer satisfaction through personalized content recommendations and enhanced user experience.
 
-### Improve Customer Satisfaction
+Reduce payment failures by implementing automated payment reminders and recovery mechanisms.
 
-* Enhance content recommendations.
-* Improve platform experience.
-* Address customer complaints proactively.
+Strengthen retention efforts for Premium Plan subscribers through targeted loyalty programs.
 
-### Reduce Payment Failures
+Launch focused retention campaigns for high-churn customer segments and regions.
 
-* Introduce payment reminders.
-* Support additional payment methods.
-* Improve payment recovery processes.
-
-### Focus On Premium Plan Retention
-
-* Review pricing strategy.
-* Introduce loyalty rewards.
-* Increase value-added offerings.
-
-### Target High-Risk Customers
-
-* Monitor low satisfaction customers.
-* Identify customers with repeated payment failures.
-* Launch personalized retention campaigns.
-
-### Strengthen Regional Retention Strategies
-
-* Investigate churn patterns in high-risk countries.
-* Deliver localized content and marketing campaigns.
+Develop an early warning system to proactively identify and engage at-risk customers.
 
 ---
 
