@@ -86,7 +86,7 @@ The dataset used for this project is available in the **Data_Files** folder of t
 * Total Revenue
 
 
-![Dashboard](
+![Dashboard](https://github.com/harshsutar2001/Netflix-Customer-Churn-Analysis/blob/main/Netflix_Dashboard_Image.png)
 
 
 ---
